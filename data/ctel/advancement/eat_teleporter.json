@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "eat_teleporter": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:compass"
+          ],
+          "predicates": {
+            "custom_data": {"IsTeleporter":true}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ctel:teleport"
+  }
+}

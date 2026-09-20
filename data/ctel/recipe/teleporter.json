@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " G ",
+    "GDG",
+    " G "
+  ],
+  "key": {
+    "G": [
+      "minecraft:gold_ingot"
+    ],
+    "D": "minecraft:diamond"
+  },
+ "result": {
+    "id": "minecraft:compass",
+    "components": {
+      "consumable":{
+        "consume_seconds": 2.5
+      },
+      "max_stack_size": 16,
+      "item_name": {
+        "translate": "item.ctel.teleporter"
+      },
+      "custom_model_data":{
+        "strings": [
+          "consumable_teleporter" 
+        ]
+      },
+      "custom_data": {"IsTeleporter":true}
+    },
+    "count": 1
+  }
+}

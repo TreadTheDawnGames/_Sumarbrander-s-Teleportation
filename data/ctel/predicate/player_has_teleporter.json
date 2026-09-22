@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:compass",
+    "predicates": { "minecraft:lodestone_tracker": {} }
+  },
+  "on_pass": {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": { "text": "Test Name" },
+    "target": "item_name",
+    "conditions": []
+  },
+  "conditions": []
+}

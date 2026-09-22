@@ -1,0 +1,1 @@
+give @s minecraft:compass[consumable={"consume_seconds": 2.5},max_stack_size=16,item_name={translate:"item.ctel.teleporter"},custom_model_data={"strings": ["consumable_teleporter" ]},custom_data={"IsTeleporter":true}]

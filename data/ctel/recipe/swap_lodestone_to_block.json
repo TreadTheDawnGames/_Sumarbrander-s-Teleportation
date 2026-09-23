@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:chicken_spawn_egg"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:lodestone"
+  }
+}

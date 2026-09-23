@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      "minecraft:lodestone"
+    ]
+  ],
+"result": {
+    "id": "minecraft:chicken_spawn_egg",
+    "components": {
+        "entity_data": {
+            "id":"armor_stand", 
+            "Invisible":true, 
+            "Invulnerable":true,
+            "Marker":true,
+            "Small":true,
+            "NoGravity":true, 
+            "Tags":["lodestoner"]},
+            "custom_name": {"translate":"block.minecraft.lodestone"},
+            "item_model": "minecraft:lodestone"
+
+    }
+  }
+}

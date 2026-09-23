@@ -1,3 +1,4 @@
 setblock ~ ~ ~ minecraft:lodestone
 playsound block.lodestone.place block @a ~ ~ ~
 tag @s add ls_placed
+execute as @e[type=minecraft:armor_stand,name="Lodestone"] run data modify entity @s CustomName set value "Activated"

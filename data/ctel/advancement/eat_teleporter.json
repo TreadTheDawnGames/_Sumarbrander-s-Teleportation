@@ -8,7 +8,7 @@
             "minecraft:compass"
           ],
           "predicates": {
-            "custom_data": {"IsTeleporter":true}
+            "minecraft:lodestone_tracker": {}
           }
         }
       }

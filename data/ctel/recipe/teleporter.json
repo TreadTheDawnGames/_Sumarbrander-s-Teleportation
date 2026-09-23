@@ -27,7 +27,10 @@
           "consumable_teleporter" 
         ]
       },
-      "custom_data": {"IsTeleporter":true}
+      "custom_data": {
+        "IsTeleporterNamed":false,
+          "IsTeleporter":true
+      }
     },
     "count": 1
   }

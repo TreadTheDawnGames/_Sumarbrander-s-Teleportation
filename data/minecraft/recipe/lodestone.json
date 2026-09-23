@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "S": "minecraft:chiseled_stone_bricks"
+  },
+  "pattern": [
+    "SSS",
+    "S#S",
+    "SSS"
+  ],
+  "result": {
+    "id": "minecraft:chicken_spawn_egg",
+    "components": {
+        "entity_data": {
+            "id":"armor_stand", 
+            "Invisible":true, 
+            "Invulnerable":true,
+            "Marker":true,
+            "Small":true,
+            "NoGravity":true, 
+            "Tags":["lodestoner"]},
+            "custom_name": {"translate":"block.minecraft.lodestone"},
+            "item_model": "minecraft:lodestone"
+
+    }
+  }
+}

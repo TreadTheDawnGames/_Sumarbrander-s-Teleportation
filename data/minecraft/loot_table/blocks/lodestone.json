@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand",
+          "NoGravity": true,
+          "Invulnerable": true,
+          "Tags": [
+            "lodestoner"
+          ],
+          "Invisible": true,
+          "Marker": true,
+          "Small": true
+        },
+        "minecraft:item_model": "minecraft:lodestone",
+        "custom_name": {"translate":"block.minecraft.lodestone"}
+
+      }
+    }
+  ],
+  "random_sequence": "minecraft:blocks/lodestone"
+}

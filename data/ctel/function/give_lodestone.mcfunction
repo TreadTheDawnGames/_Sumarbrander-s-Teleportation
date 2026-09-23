@@ -1,1 +1,1 @@
-give @s minecraft:chicken_spawn_egg[entity_data={id:"armor_stand", CustomNameVisible:true, Invisible:true, Invulnerable:true,Marker:true,Small:true,NoGravity:true, Tags:["lodestoner"]},custom_name={text:"Lodestone"},item_model="lodestone"] 1
+give @s minecraft:chicken_spawn_egg[entity_data={id:"armor_stand", Invisible:true, Invulnerable:true,Marker:true,Small:true,NoGravity:true, Tags:["lodestoner"]},custom_name={text:"Lodestone"},item_model="lodestone"] 1

@@ -18,7 +18,7 @@ It's a resource pack. Install it the same as any resource pack... Oh you don't k
 
 ## Usage
 1. Craft a teleporter with this recipe:<br>
-<img width="350" height="164" alt="image" src="https://github.com/user-attachments/assets/a20a588b-1b5d-4922-adfe-2dd0f3a33990" />
+<img width="350" height="164" alt="Empty, Gold Ingot, Empty, (next row) Gold Ingot, Diamond, Gold Ingot, (next row) Empty, Gold Ingot, Empty" src="https://github.com/user-attachments/assets/a20a588b-1b5d-4922-adfe-2dd0f3a33990" />
 <br><br>
 
 2. Use the teleporter on a lodestone to set the teleporter's location. 
@@ -32,7 +32,7 @@ It's a resource pack. Install it the same as any resource pack... Oh you don't k
 
 ### Compatibility
 Under the hood, the lodestone item has been replaced by a spawn egg. Other mods/datapacks won't recognize it as a lodestone in their crafting recipes, so if you ever need to you can convert them to and from vanilla lodestone blocks with a shapeless crafting recipe:<br>
-<img width="349" height="163" alt="image" src="https://github.com/user-attachments/assets/50fa0d04-ec4c-42b0-a1a6-31c882f5523d" />
+<img width="349" height="163" alt="Shapeless crafting recipe. Put the spawn egg in on the left get block out on right and vice versa." src="https://github.com/user-attachments/assets/50fa0d04-ec4c-42b0-a1a6-31c882f5523d" />
 <br>
 Again, activating a teleporter on a vanilla lodestone works, but it will not be renamed automatically.
 
@@ -60,4 +60,3 @@ Again, activating a teleporter on a vanilla lodestone works, but it will not be 
 <br><br>
 <b>Q: Sometimes the automatic rename doesn't work!<br></b>
 <i>A: This is a known, ignored issue. If it happens just stand a little closer and hit the same lodestone.</i>
-

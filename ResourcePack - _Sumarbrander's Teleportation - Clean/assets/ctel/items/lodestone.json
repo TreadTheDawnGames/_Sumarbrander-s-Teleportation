@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "teleport_lodestone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:lodestone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/acacia_button"
+    }
+  }
+}

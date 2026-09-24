@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases":[
+        {
+            "when" : "consumable_teleporter",
+            "model": {
+                "type":"minecraft:condition",
+                "property": "minecraft:has_component",
+                "component": "minecraft:lodestone_tracker",
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "ctel:item/teleporter_active"
+                },
+                "on_false": {
+                    "type": "minecraft:model",
+                    "model": "ctel:item/teleporter_unactive"
+                }
+            }
+        }
+    ],
+    "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/compass_00"
+    }
+  }
+}

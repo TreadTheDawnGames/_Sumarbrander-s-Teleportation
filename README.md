@@ -13,6 +13,7 @@ This pack is made for Minecraft 26.2
 It's a datapack. Install it the same as any datapack... Oh you don't know how to do that? Check out the Minecraft Wiki page [here](https://minecraft.wiki/w/Tutorial:Importing_a_data_pack).
 
 ### Resource Pack
+Two packs are provided: one has a cookie-ish look to it, and one is a plain color-swapped compass. You only need one so pick the one you like.<br><br>
 It's a resource pack. Install it the same as any resource pack... Oh you don't know how to do that? Check out the Minecraft Wiki page [here](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack).
 
 
